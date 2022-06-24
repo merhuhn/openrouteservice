@@ -4,7 +4,7 @@ ENV MAVEN_OPTS="-Dmaven.repo.local=.m2/repository -Dorg.slf4j.simpleLogger.log.o
 ENV MAVEN_CLI_OPTS="--batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true"
 
 ARG ORS_CONFIG=./openrouteservice/src/main/resources/ors-config-sample.json
-ARG OSM_FILE=./openrouteservice/src/main/files/heidelberg.osm.gz
+ARG OSM_FILE=./openrouteservice/src/main/files/puerto-rico-latest.osm.pbf
 ENV BUILD_GRAPHS="False"
 ARG UID=1000
 ARG TOMCAT_VERSION=8.5.69
