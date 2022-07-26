@@ -25,7 +25,7 @@
           },
           {
             "profiles": "driving-car, driving-hgv",
-            "value": 100000
+            "value": 300000
           }
         ],
         "maximum_range_time": [
@@ -35,14 +35,14 @@
           },
           {
             "profiles": "driving-car, driving-hgv",
-            "value": 3600
+            "value": 10800
           }
         ],
         "fastisochrones": {
           "maximum_range_distance": [
             {
               "profiles": "any",
-              "value": 50000
+              "value": 500000
             },
             {
               "profiles": "driving-car, driving-hgv",
@@ -108,16 +108,16 @@
             "elevation_cache_path": "cgiar_provider",
             "elevation_cache_clear": false,
             "instructions": true,
-            "maximum_distance": 100000,
-            "maximum_distance_dynamic_weights": 100000,
-            "maximum_distance_avoid_areas": 100000,
-            "maximum_waypoints": 50,
+            "maximum_distance": 300000,
+            "maximum_distance_dynamic_weights": 300000,
+            "maximum_distance_avoid_areas": 300000,
+            "maximum_waypoints": 150,
             "maximum_snapping_radius": 400,
             "maximum_avoid_polygon_area": 200000000,
             "maximum_avoid_polygon_extent": 20000,
-            "maximum_distance_alternative_routes": 100000,
+            "maximum_distance_alternative_routes": 300000,
             "maximum_alternative_routes": 3,
-            "maximum_distance_round_trip_routes": 100000,
+            "maximum_distance_round_trip_routes": 300000,
             "maximum_speed_lower_bound": 80,
             "preparation": {
               "min_network_size": 200,
@@ -145,7 +145,7 @@
             "parameters": {
               "encoder_flags_size": 8,
               "encoder_options": "turn_costs=true|block_fords=false|use_acceleration=true",
-              "maximum_distance": 100000,
+              "maximum_distance": 300000,
               "elevation": true,
               "maximum_snapping_radius": 350,
               "preparation": {
@@ -202,7 +202,7 @@
             "parameters": {
               "encoder_flags_size": 8,
               "encoder_options": "turn_costs=true|block_fords=false|use_acceleration=true",
-              "maximum_distance": 100000,
+              "maximum_distance": 300000,
               "elevation": true,
               "preparation": {
                 "min_network_size": 200,
